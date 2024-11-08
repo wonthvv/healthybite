@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50; /* Verde saludable */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Contenido principal */
+main {
+    padding: 40px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de la receta */
+.receta-contenido img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Sección de ingredientes e instrucciones */
+.ingredientes, .instrucciones {
+    margin-bottom: 20px;
+}
+
+.ingredientes h2, .instrucciones h2 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ingredientes ul, .instrucciones ol {
+    padding-left: 20px;
+}
+
+.ingredientes li, .instrucciones li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Nueva Sección de Información Nutricional */
+.informacion-nutricional {
+    margin-top: 20px;
+}
+
+.informacion-nutricional h2 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Tabla de información nutricional */
+.informacion-nutricional table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-nutricional th, .informacion-nutricional td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.informacion-nutricional th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+}
+
+.informacion-nutricional td {
+    font-size: 1.2em;
+}
+
+.informacion-nutricional tr:last-child td {
+    border-bottom: none; /* Quitar borde en la última fila */
+}
+
+/* Pie de página */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

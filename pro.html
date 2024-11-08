@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Exclusivo - Healthy Bite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #F0F8FF;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header .logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 50px;
+        }
+
+        .pro-section h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+            font-weight: 400;
+        }
+
+        section#contenido-exclusivo {
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        section#contenido-exclusivo h2 {
+            font-size: 2em;
+            color: #4CAF50;
+        }
+
+        .video-contenedor {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .video-tipo {
+            width: 45%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .video-tipo video {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .detalles-video {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .tabla-nutricional {
+            margin-top: 10px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .tabla-nutricional th, .tabla-nutricional td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .tabla-nutricional th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Contenido Premium de Healthy Bite</h1>
+    </header>
+
+    <!-- Contenido exclusivo -->
+    <section id="contenido-exclusivo">
+        <h2>Videos Premium</h2>
+        <p>Accede a nuestros mejores videos escogidos exclusivamente para ti sobre vida saludable. Solo para miembros premium.</p>
+        <div class="video-contenedor">
+            <!-- Video 1 -->
+            <div class="video-tipo">
+                <h3>Pasta con Brócoli</h3>
+                <video controls poster="imagenes/pASTA CON BROCOLI.jpg">
+                    <source src="imagenes/videos/Pasta con Brócoli_ la pasta saludable que tienes que probar!.mp4" type="video/mp4">
+                </video>
+                <div class="detalles-video">
+                    <h4>Ingredientes:</h4>
+                    <ul>
+                        <li>200 g de pasta integral o de tu preferencia</li>
+                        <li>300 g de brócoli fresco (cortado en pequeños floretes)</li>
+                        <li>2 dientes de ajo picados</li>
+                        <li>2 cucharadas de aceite de oliva extra virgen</li>
+                        <li>Jugo de 1/2 limón</li>
+                        <li>30 g de queso parmesano rallado (opcional)</li>
+                        <li>Sal y Pimienta al gusto</li>
+                    </ul>
+                    <h4>Preparación:</h4>
+                    <p>Cocina la pasta y el brócoli, saltea el ajo, mezcla todo, y añade jugo de limón y queso parmesano si lo deseas.</p>
+                    <h4>Tabla Nutricional:</h4>
+                    <table class="tabla-nutricional">
+                        <tr>
+                            <th>Componente</th>
+                            <th>Cantidad por porción</th>
+                        </tr>
+                        <tr>
+                            <td>Calorías</td>
+                            <td>420 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Proteínas</td>
+                            <td>14 g</td>
+                        </tr>
+                        <tr>
+                            <td>Grasas</td>
+                            <td>15 g</td>
+                        </tr>
+                        <tr>
+                            <td>Carbohidratos</td>
+                            <td>60 g</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Video 2 -->
+            <div class="video-tipo">
+                <h3>Motivacion para tus buenos habitos</h3>
+                <video controls poster="imagenes/WhatsApp Image 2024-11-07 at 18.03.33.jpeg">
+                    <source src="imagenes/videos/NECESITAS MOTIVACIÓN PARA EMPEZAR UNA VIDA SALUDABLE_ _mira esto_ tips, rutinas & hábitos!! (1).mp4" type="video/mp4">
+                </video>
+                <p>Motivacion para mantener una vida saludable.</p>
+
+                <h4>Consejos prácticos:</h4>
+                <ul>
+                    <li>Empieza con metas pequeñas: Introduce poco a poco 
+                    cambios en tu rutina, como tomar más agua o salir
+                     a caminar 15 minutos al día.</li>
+                     <li>Disfruta el proceso: Encuentra actividades y alimentos 
+                        saludables que realmente te gusten</li>
+                    <li>Rodéate de apoyo: Mantente cerca de personas que también
+                         valoren un estilo de vida saludable para motivarte mutuamente</li>
+                    <li>Celebra los logros: Reconoce tus avances, no importa cuán pequeños sean.
+                         Cada paso cuenta.</li>
+                    <li>Escribe tus metas y revisa tu progreso: Tener un diario de bienestar o una 
+                        lista de logros puede recordarte lo lejos que has llegado.</li>
+                </ul>
+                 <h4> "Tómate el tiempo de apreciar cómo te sientes cuando te cuidas bien": Las pequeñas mejoras en tu
+                     energía, tu estado de ánimo y tu rendimiento diario te recordarán por qué 
+                     es importante seguir adelante.</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 HEALTHY BITE | Contacto: info@vidasaludable.com</p>
+        <div class="sociales">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
